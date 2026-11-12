@@ -1,0 +1,28 @@
+{
+  "features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ],
+  "target": "median_house_value",
+  "target_units": "unidades de USD 100.000",
+  "architecture": "MLPRegressor(hidden_layer_sizes=(128,64,32), activation='relu', solver='adam')",
+  "random_state": 42,
+  "metrics": {
+    "MLP": {
+      "MAE": 0.3489237895184838,
+      "RMSE": 0.5234520372580596,
+      "R2": 0.7923722744729021
+    },
+    "Dummy baseline": {
+      "MAE": 0.9090538598408344,
+      "RMSE": 1.148783686215096,
+      "R2": -1.8597670768727426e-05
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# =====================================================================
+# ACA N.º 2 - Aprendizaje Automático - Grupo 17
+# Predicción del valor de viviendas con una red neuronal profunda (MLP)
+# =====================================================================
+# Versiones probadas en el entorno del proyecto (Python 3.15).
+# Instalar con:  pip install -r requirements.txt
+streamlit==1.67.0
+scikit-learn==1.9.1
+pandas==3.1.1
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
